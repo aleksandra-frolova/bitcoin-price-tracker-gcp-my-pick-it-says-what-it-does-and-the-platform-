@@ -2,7 +2,7 @@ from google.cloud import bigquery
 from datetime import datetime, timezone
 
 def write_new_price(new_price):
-    TABLE_ID = "project-7d74aa98-cf44-4087-9fc.cryptocurrency.Bitcoin USD price"
+    TABLE_ID = YOUR_TABLE_ID
     client = bigquery.Client()
     row = {
     "timestamp": datetime.now(timezone.utc).isoformat(),
