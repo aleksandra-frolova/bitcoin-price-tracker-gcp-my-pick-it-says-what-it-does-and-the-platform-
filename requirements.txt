@@ -1,0 +1,3 @@
+functions-framework
+google-cloud-bigquery
+python-telegram-bot
