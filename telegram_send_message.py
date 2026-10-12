@@ -2,7 +2,7 @@ import http.client
 import json
 import os
 
-CHAT_ID = 837453139
+CHAT_ID = YOUR_PROJECT_ID
 
 def send_telegram_message(text):
     token = os.environ["telegram-key"]
